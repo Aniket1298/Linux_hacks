@@ -1,0 +1,7 @@
+Give File Root access
+sudo chown root:root <file name>
+
+Remove root access from a file
+
+sudo chown -R $USER <file name>
+
