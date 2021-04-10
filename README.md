@@ -15,6 +15,27 @@ sudo make install
 pkill -u <username>
 
 ```
+## Give File Root access
+
+```
+sudo chown root:root <file name>
+```
+
+## Remove root access from a file
+
+```
+sudo chown -R $USER <file name>
+```
+
+##  Virtual Environment
+```
+1.Create 
+	virtualenv <virtualenvname>
+2.Activate
+	 source <virtualenvname>/bin/activate
+3.Deactivate
+	deactivate
+ ```
 ## New Repository Setup
 
 ``` bash
